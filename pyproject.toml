@@ -1,0 +1,17 @@
+[project]
+name = "cnn-animales-marinos"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ezequiel Saidman", email = "ezequiel.saidman@chevron.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+cnn-animales-marinos = "cnn_animales_marinos:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
