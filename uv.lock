@@ -300,7 +300,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "jupyter", specifier = ">=1.1.1" },
-    { name = "keras", specifier = ">=3.11.3" },
+    { name = "keras", specifier = "<=3.10.0" },
     { name = "matplotlib", specifier = ">=3.10.6" },
     { name = "numpy", specifier = ">=2.3.3" },
     { name = "pandas", specifier = ">=2.3.3" },
@@ -1024,7 +1024,7 @@ wheels = [
 
 [[package]]
 name = "keras"
-version = "3.11.3"
+version = "3.10.0"
 source = { registry = "https://artifactory.chevron.com/artifactory/api/pypi/pypi-remote/simple" }
 dependencies = [
     { name = "absl-py" },
@@ -1036,9 +1036,9 @@ dependencies = [
     { name = "packaging" },
     { name = "rich" },
 ]
-sdist = { url = "https://artifactory.chevron.com/artifactory/api/pypi/pypi-remote/packages/packages/6a/89/646425fe9a46f9053430e1271f817c36041c6f33469950a3caafc3d2591e/keras-3.11.3.tar.gz", hash = "sha256:efda616835c31b7d916d72303ef9adec1257320bc9fd4b2b0138840fc65fb5b7" }
+sdist = { url = "https://artifactory.chevron.com/artifactory/api/pypi/pypi-remote/packages/packages/f3/fe/2946daf8477ae38a4b480c8889c72ede4f36eb28f9e1a27fc355cd633c3d/keras-3.10.0.tar.gz", hash = "sha256:6e9100bf66eaf6de4b7f288d34ef9bb8b5dcdd62f42c64cfd910226bb34ad2d2" }
 wheels = [
-    { url = "https://artifactory.chevron.com/artifactory/api/pypi/pypi-remote/packages/packages/94/5b/4c778cc921ce4b864b238f63f8e3ff6e954ab19b80c9fa680593ad8093d4/keras-3.11.3-py3-none-any.whl", hash = "sha256:f484f050e05ee400455b05ec8c36ed35edc34de94256b6073f56cfe68f65491f" },
+    { url = "https://artifactory.chevron.com/artifactory/api/pypi/pypi-remote/packages/packages/95/e6/4179c461a5fc43e3736880f64dbdc9b1a5349649f0ae32ded927c0e3a227/keras-3.10.0-py3-none-any.whl", hash = "sha256:c095a6bf90cd50defadf73d4859ff794fad76b775357ef7bd1dbf96388dae7d3" },
 ]
 
 [[package]]
