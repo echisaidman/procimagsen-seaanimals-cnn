@@ -12,3 +12,7 @@ wheels/
 # Images
 data/*
 !data/.gitkeep
+
+# Model Weights
+animals_eff.EfficientNetB5.weights.h5
+animals_eff.EfficientNetB7.weights.h5
